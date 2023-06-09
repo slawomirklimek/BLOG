@@ -25,15 +25,32 @@ html,body{
         justify-content: space-between;
     }
 
+    .nav .nav-items{
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+    }
+
+    .nav .nav-items .nav-link{
+        padding: 1.6rem 1rem;
+        font-size: 1.1rem;
+        position: relative;
+    }
+
    
 
-        .nav .nav-brand a{
-            font-size: 1.6rem;
-            padding; 1rem 0;
+        .nav .nav-brand .nav.social{
+            font-size: 1.6rem 1rem;
+            padding: 1rem 0;
+            display: block;
             
 
 
         }
-        text-decoration:none;
+        .nav .social{
+            padding: 1.4rem 0;
+        }
+
+   
     
 
