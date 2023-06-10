@@ -15,7 +15,7 @@ html,body{
 
     .nav{
         background:white;
-        padding: 0  2rem;
+        padding: 1.6rem  1rem;
         height: 0rem;
         min-height: 40vh;
         overflow:hidden;
@@ -48,7 +48,7 @@ html,body{
 
         }
         .nav .social{
-            padding: 1.4rem 0;
+            padding: 1.6rem 1;
         }
 
    
