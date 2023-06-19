@@ -3,6 +3,12 @@ html,body{
     margin: 0%;
     box-sizing:border-box;
     overflow-x:hidden
+    text-decoration: none;
+}
+
+:root{
+
+    --Abel:'Abel', cursive;
 }
 
 
@@ -10,6 +16,7 @@ html,body{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
+    text-decoration: none;
 }
 
 
@@ -19,36 +26,59 @@ html,body{
         height: 0rem;
         min-height: 40vh;
         overflow:hidden;
+        font-family: var(--Abel);
+        text-decoration: none;
     }
 
     .nav .nav-menu {
         justify-content: space-between;
+        text-decoration: none;
     }
 
     .nav .nav-items{
         list-style-type: none;
         display: flex;
         margin: 0;
+        font-family: var(--Abel);
+        text-decoration: none;
+            
     }
 
-    .nav .nav-items .nav-link{
-        padding: 1.6rem 1rem;
-        font-size: 1.1rem;
+    .nav .nav-items .nav-link a {
+        padding: 1.0rem 1rem;
+        font-size: 1.0rem;
         position: relative;
+        font-family: var(--Abel);
+        text-decoration: none;
     }
 
    
 
-        .nav .nav-brand .nav.social{
-            font-size: 1.6rem 1rem;
+        .nav .nav-brand a{
+
+        
+            font-size: 1.0rem 1rem;
             padding: 1rem 0;
             display: block;
+            font-family: var(--Abel);
+            text-decoration: none;
             
 
 
         }
         .nav .social{
             padding: 1.6rem 1;
+            text-decoration: none;
+        }
+        
+
+
+        
+   .nav-brand{
+
+
+   
+        text-decoration: none;
         }
 
    
